@@ -1,0 +1,15 @@
+{
+  "name": "AutomationChallenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe chrome ./tests -e --selector-timeout 15000 --page-load-timeout 15000 --assertion-timeout 15000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "testcafe": "^1.6.0"
+  }
+}
